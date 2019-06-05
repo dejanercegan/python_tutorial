@@ -4,3 +4,5 @@ python:
 install:
   - pip install pytest
 script: python -m pytest test_lists_tut.py
+script: python -m pytest test_dictionary_tut.py
+script: python -m pytest test_ifelse_tut.py

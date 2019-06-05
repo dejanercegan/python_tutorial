@@ -1,3 +1,4 @@
+import src.ifelse_tut as ifelse_tut
 import src.lists_tut as lists_tut
 import src.dictionary_tut as dictionary_tut
 
@@ -13,6 +14,10 @@ def main():
     }
 
     filter_dict = dictionary_tut.filter_dictionary(input_dict, "D")
+
+    #######################################################################
+
+    ifelse_number = ifelse_tut.ifelse_numlist(['11', '4', '-7'])
 
 
 

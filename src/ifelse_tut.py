@@ -9,7 +9,7 @@ def ifelse_numlist(arg_ifelse):
     result = []
 
     for num_list in arg_ifelse:
-        if 11 > 4 and 4 > -7:
-            print ([11, 4, -7])
+        if x > y and y > z:
+            print (['x', 'y', 'z'])
 
     return result

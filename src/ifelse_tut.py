@@ -8,12 +8,32 @@ def ifelse_numlist(arg_ifelse):
     """
     result = []
 
-    x = int(input("1st num: "))
-    y = int(input("2nd num: "))
-    z = int(input("3rd num: "))
+    x = int(input("num1"))
+    y = int(input("num2"))
+    z = int(input("num3"))
+    if x < y and x < z and y < z:
+        print(x)
+        print(y)
+        print(z)
+    elif x < y and x < z and z < y:
+        print(x)
+        print(z)
+        print(y)
+    elif y < x and y < z and z < x:
+        print(y)
+        print(z)
+        print(x)
+    elif y < x and y < z and x < z:
+        print(y)
+        print(x)
+        print(z)
+    elif z < y and z < x and x < y:
+        print(z)
+        print(x)
+        print(y)
+    else:
+        print(z)
+        print(y)
+        print(x)
 
-    a1 = min(x, y, z)
-    a3 = max(x, y, z)
-    a2 = (x + y + z) - a1 - a3
-    print(a1, a2, a3)
     return result

@@ -17,7 +17,7 @@ def main():
 
     #######################################################################
 
-    ifelse_number = ifelse_tut.ifelse_numlist(['4', '11', '-7'])
+    ifelse_number = ifelse_tut.ifelse_numlist(['num1', 'num2', 'num3'])
 
 
 

@@ -5,4 +5,4 @@ def test_ifelse_numlist():
 
     :return:
     """
-    assert(ifelse_tut.ifelse_numlist(['x', 'z', 'y']) == (['x', 'y', 'z']))
+    assert(ifelse_tut.ifelse_numlist(['y', 'z', 'x']) == (['x', 'y', 'z']))

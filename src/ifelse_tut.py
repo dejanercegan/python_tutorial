@@ -1,39 +1,38 @@
 # return the list of random numbers to correct order
 
-def ifelse_numlist(arg_ifelse):
+def ifelse_numlist(x, y, z):
     """
-    Changes all strings in a list to upercase
-    :param arg_ifelse: List of random numbers
-    :return: List of random numbers in correct order
+
+    :param x: random number
+    :param y: random number
+    :param z: random number
+    :return: correct order of numbers
     """
     result = []
 
-    x = int(input("num1"))
-    y = int(input("num2"))
-    z = int(input("num3"))
     if x < y and x < z and y < z:
-        print(x)
-        print(y)
-        print(z)
+        result.append(x)
+        result.append(y)
+        result.append(z)
     elif x < y and x < z and z < y:
-        print(x)
-        print(z)
-        print(y)
+        result.append(x)
+        result.append(z)
+        result.append(y)
     elif y < x and y < z and z < x:
-        print(y)
-        print(z)
-        print(x)
+        result.append(y)
+        result.append(z)
+        result.append(x)
     elif y < x and y < z and x < z:
-        print(y)
-        print(x)
-        print(z)
+        result.append(y)
+        result.append(x)
+        result.append(z)
     elif z < y and z < x and x < y:
-        print(z)
-        print(x)
-        print(y)
+        result.append(z)
+        result.append(x)
+        result.append(y)
     else:
-        print(z)
-        print(y)
-        print(x)
+        result.append(z)
+        result.append(y)
+        result.append(x)
 
     return result

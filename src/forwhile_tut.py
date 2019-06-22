@@ -13,15 +13,15 @@ def forwhile_names(a, b, c):
     names = ["Branislav", "Dejan", "Srdjan"]
 
     for name in names:
-        print(names)
+        result.append(names)
 
         if name == "Dejan":
-            print(f'{name} - sam ja')
+            result.append(f'{name} - sam ja')
         if name == "Branislav":
-            print(f'{name} - prijatelj')
+            result.append(f'{name} - prijatelj')
         if name == "Srdjan":
-            print(f'{name} - moj brat')
+            result.append(f'{name} - moj brat')
         else:
-            print(name)
+            result.append(name)
 
     return result

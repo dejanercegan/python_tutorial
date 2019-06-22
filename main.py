@@ -1,6 +1,7 @@
 import src.ifelse_tut as ifelse_tut
 import src.lists_tut as lists_tut
 import src.dictionary_tut as dictionary_tut
+import src.forwhile_tut as forwhile_tut
 
 
 def main():
@@ -18,6 +19,10 @@ def main():
     #######################################################################
 
     ifelse_number = ifelse_tut.ifelse_numlist(['-99', '46', '5'])
+
+    #######################################################################
+
+    firwhile_myname = forwhile_tut.forwhile_names(['Dejan', 'Srdjan', 'Branislav'])
 
 
 

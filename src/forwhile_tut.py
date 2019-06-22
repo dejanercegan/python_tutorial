@@ -6,7 +6,7 @@ def forwhile_names(a, b, c):
     :param a: Srdjan
     :param b: Branislav
     :param c: Dejan
-    :return: "my name is: Srdjan, my name is: Branislav, my name is: Dejan"
+    :return:
     """
     result = []
 

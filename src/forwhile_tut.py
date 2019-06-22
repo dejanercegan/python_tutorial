@@ -10,11 +10,18 @@ def forwhile_names(a, b, c):
     """
     result = []
 
-    name = ["my name is: "]
-    names = ["Dejan", "Branislav", "Srdjan"]
+    names = ["Branislav", "Dejan", "Srdjan"]
 
-    for x in name:
-        for y in names:
-            print(x, y)
+    for name in names:
+        print(names)
+
+        if name == "Dejan":
+            print(f'{name} - sam ja')
+        if name == "Branislav":
+            print(f'{name} - prijatelj')
+        if name == "Srdjan":
+            print(f'{name} - moj brat')
+        else:
+            print(name)
 
     return result
